@@ -118,6 +118,47 @@ ul li span{
     cursor: pointer;
 }
 
+
+
 ul li span:hover{
     background: #edeef0;
+}
+
+@media (max-width : 600px){
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 25px;
+    gap: 10px; /* adds spacing between input and button */
+}
+
+.row input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    min-width: 0; /* prevents overflow in flex container */
+}
+
+.row button {
+    padding: 10px 20px;
+    background: #fd7171;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    }
+
+    input , input.error{
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 20px;
+        border: 2px solid red;
+    } 
 }
