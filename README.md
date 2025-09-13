@@ -19,6 +19,9 @@ JavaScript (Vanilla JS) – app logic, event handling, and data persistence
 ## 📂 Project Setup
 Download or clone this repository:
 git clone https://github.com/FarhanNisar17/Capstone-3-To-Do-List.git
+
 Open the project folder on your computer.
+
 Double-click index.html (or right-click → "Open With" → choose your browser).
+
 That’s it 🎉 The To-Do List app will run in your browser.
